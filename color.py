@@ -49,7 +49,7 @@ root.title("Mythicmob 粒子顏色批量調整")
 input_frame = tk.Frame(root)
 input_frame.pack(pady=10)
 
-tk.Label(input_frame, text="輸入粒子顏色代碼 ( 輸入 'done' 結束):").pack()
+tk.Label(input_frame, text="輸入粒子顏色代碼:").pack()
 input_text = scrolledtext.ScrolledText(input_frame, width=100, height=10, wrap=tk.WORD)
 input_text.pack(pady=10)
 
